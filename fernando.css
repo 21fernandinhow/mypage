@@ -1,0 +1,46 @@
+body{
+	background: #161117;
+	color: #FFFFFF;
+	font: Verdana;
+}
+#cabecalho{
+	background: #27488E;
+	height: 300px;
+	border: 1px groove #CCC;
+	padding: 5px;
+	z-index: 1;
+	font-size: 18px;
+}
+#foto{
+	position: absolute;
+	top: 15px;
+	left: 1150px;
+	border: 2px solid #CCC;
+	z-index: 2;
+}
+h1{
+	font: 60px Helvetica;
+}
+h2{
+	color: #F24C0C;
+	font-size: 24px;
+	margin: 8px;
+}
+span{
+	color: #F24C0C;
+	font: bold 16px Helvetica;
+}
+li{
+	display:inline-block;
+	width: 250px;
+	height: 210px;
+	background: #F24C0C;
+	padding: 10px;
+	margin: 5px;
+	box-sizing: border-box;
+	text-align: center;
+}
+#barradecontato{
+	font-size: 18px;
+	text-align: center;
+}
