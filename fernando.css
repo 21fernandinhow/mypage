@@ -1,46 +1,49 @@
 body{
-	background: #161117;
 	color: #FFFFFF;
 	font: Verdana;
 }
 #cabecalho{
-	background: #27488E;
-	height: 300px;
-	border: 1px groove #CCC;
-	padding: 5px;
-	z-index: 1;
-	font-size: 18px;
+	background: hsl(0, 0%, 30%);
+	font-size: 14px;
+	width: 1042px;
+	height: 350px;
+	padding: 10px;
+	box-sizing: border-box;
+	position: absolute;
+	margin: 5px;
+	top: 50px;
+	left: 248px;
 }
 #foto{
-	position: absolute;
-	top: 15px;
-	left: 1150px;
+	float:right;
+	margin: 5px;
 	border: 2px solid #CCC;
-	z-index: 2;
 }
 h1{
 	font: 60px Helvetica;
 }
-h2{
-	color: #F24C0C;
-	font-size: 24px;
-	margin: 8px;
-}
-span{
-	color: #F24C0C;
-	font: bold 16px Helvetica;
-}
 li{
-	display:inline-block;
+	font-size: 14px;
+	display: inline-block;
 	width: 250px;
 	height: 210px;
-	background: #F24C0C;
 	padding: 10px;
 	margin: 5px;
 	box-sizing: border-box;
 	text-align: center;
+	position: relative;
+	top: 400px;
+	left: 200px;
 }
-#barradecontato{
-	font-size: 18px;
-	text-align: center;
+.green{
+	background: #34A853;
+}
+.yellow{
+	background: #FBBC05;
+}
+.red{
+	background: #EA4335;
+}
+.blue{
+	background: #4285F4;
 }
