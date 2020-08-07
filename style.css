@@ -1,0 +1,49 @@
+body{
+	color: #FFFFFF;
+	font: Verdana;
+}
+#cabecalho{
+	background: hsl(0, 0%, 30%);
+	font-size: 14px;
+	width: 1042px;
+	height: 350px;
+	padding: 10px;
+	box-sizing: border-box;
+	position: absolute;
+	margin: 5px;
+	top: 50px;
+	left: 248px;
+}
+#foto{
+	float:right;
+	margin: 5px;
+	border: 2px solid #CCC;
+}
+h1{
+	font: 60px Helvetica;
+}
+li{
+	font-size: 14px;
+	display: inline-block;
+	width: 250px;
+	height: 210px;
+	padding: 10px;
+	margin: 5px;
+	box-sizing: border-box;
+	text-align: center;
+	position: relative;
+	top: 400px;
+	left: 200px;
+}
+.green{
+	background: #34A853;
+}
+.yellow{
+	background: #FBBC05;
+}
+.red{
+	background: #EA4335;
+}
+.blue{
+	background: #4285F4;
+}
